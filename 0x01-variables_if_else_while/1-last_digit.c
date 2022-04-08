@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * Main-standard
  *
  * Return: Alwyas (0) sucess
