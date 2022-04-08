@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * Main-standard
+ * main - standard
  *
- * Description: Talk Techy to me
+ * Return: 0 if the code runs
  */
 int main(void)
 {
