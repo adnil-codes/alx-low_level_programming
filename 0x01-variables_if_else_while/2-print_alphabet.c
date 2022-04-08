@@ -8,7 +8,7 @@
 int main(void)
 {
 char ch = 97;
-for (ch = 97; ch <= 122; ch++)
+for (ch = 97; ch < 122; ch++)
 putchar(ch);
 {
 printf("%c\n", ch);
