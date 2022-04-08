@@ -5,7 +5,7 @@
 /**
  * Main-standard
  *
- * Return: Alwyas (0) sucess
+ * Description: Talk Techy to me
  */
 int main(void)
 {
