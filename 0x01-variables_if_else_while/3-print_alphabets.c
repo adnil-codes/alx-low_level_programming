@@ -8,17 +8,17 @@
  */
 int main(void)
 {
-char c = 65;
-while (c < 90)
-{
-putchar(c);
-c++
-}
 char c = 97;
 while (c < 122)
 {
 putchar(c);
-c++
+c++;
+}
+char ch = 65;
+while (ch < 90)
+{
+putchar(ch);
+ch++;
 }
 putchar('\n');
 
