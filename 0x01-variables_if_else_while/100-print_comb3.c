@@ -28,7 +28,7 @@ putchar(' ');
 }
 c++;
 }
-d++
+d++;
 }
 putchar('\n');
 return (0);
