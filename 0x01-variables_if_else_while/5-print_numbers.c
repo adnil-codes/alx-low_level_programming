@@ -5,13 +5,13 @@
 /**
  * main - code
  *
- * Return: Code prints values 
+ * Return: Code prints values
  * between 0 and 10
  */
 int main(void)
 {
-char c = 0;
-while (c <= 9)
+char c = '0';
+while (c <= '9')
 {
 putchar(c);
 c++;
