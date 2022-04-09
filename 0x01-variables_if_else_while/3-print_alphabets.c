@@ -3,21 +3,24 @@
 /**
  * main - task
  *
- * Return: 0 when codes ru
+ * Return: Alphabets in lower and uppercase
+ * with a new line
  */
 int main(void)
 {
 char ch = 97;
-for (ch = 97; ch < 122; ch++)
+while (ch < 122)
 {
 putchar(ch);
+ch++
 }
-char up = 65;
-for up = 65; up < 90; up++)
+char ch = 65;
+while (up < 90)
 {
-putchar(up);
+putchar(ch);
+ch++
 }
-
+putchar('\n')
 return (0);
 }
 
