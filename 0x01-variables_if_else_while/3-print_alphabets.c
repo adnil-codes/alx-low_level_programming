@@ -8,19 +8,20 @@
  */
 int main(void)
 {
-char ch = 97;
-while (ch < 122)
+char c = 65;
+while (c < 90)
 {
-putchar(ch);
-ch++
+putchar(c);
+c++
 }
-char ch = 65;
-while (up < 90)
+char c = 97;
+while (c < 122)
 {
-putchar(ch);
-ch++
+putchar(c);
+c++
 }
-putchar('\n')
+putchar('\n');
+
 return (0);
 }
 
