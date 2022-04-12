@@ -5,6 +5,7 @@
  * @c: is the parameter
  * Description: Code checks if char is a letter,
  * uppercase or lower case
+ * Return: 0 or 1 depending
  */
 int _isalpha(int c)
 {
