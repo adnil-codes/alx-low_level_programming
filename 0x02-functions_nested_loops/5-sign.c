@@ -2,6 +2,7 @@
 
 /**
  * print_sign - prints time
+ * @n: parameter for the code
  * Description: Code prints return depending on outcome
  * Return: 0, -1 or 1 depending on outcome
  */
