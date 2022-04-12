@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - code input
+ * print_alphabet_x10 - code input
  * Description: Code prints the alphabets
  * in lower case 10 times in new lins
  * Return: 0 when sucess
@@ -17,5 +17,4 @@ _putchar(j);
 }
 _putchar('\n');
 }
-return (0);
 }
