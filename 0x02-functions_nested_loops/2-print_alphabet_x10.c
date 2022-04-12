@@ -4,7 +4,7 @@
  * main - code input
  * Description: Code prints the alphabets
  * in lower case 10 times in new lins
- * Result: Returns 0 when sucess
+ * Return: 0 when sucess
  */
 int main(void)
 {
