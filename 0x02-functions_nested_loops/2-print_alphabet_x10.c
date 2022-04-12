@@ -13,9 +13,9 @@ for (i = 0; i < 10; i++)
 {
 for (j = 97; j < 122; j++)
 {
-putchar(j);
+_putchar(j);
 }
-putchar('\n');
+_putchar('\n');
 }
 return (0);
 }
