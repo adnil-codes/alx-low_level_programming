@@ -6,7 +6,7 @@
  * in lower case 10 times in new lins
  * Return: 0 when sucess
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 int i, j;
 for (i = 0; i < 10; i++)
