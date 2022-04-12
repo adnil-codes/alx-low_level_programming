@@ -3,7 +3,7 @@
 
 /**
  * _abs - absolute
- * @r: integer of code
+ * @n: integer of code
  * Description: This should print the absolute value
  * Return: always 0
  */
