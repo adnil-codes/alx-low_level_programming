@@ -9,7 +9,13 @@
  */
 int _abs(int r)
 {
-r = abs(r);
-print("%d", r);
-return (0);
+if (n < 0)
+{
+n *= -1;
+return (n);
+}
+else
+{
+return (n);
+}
 }
