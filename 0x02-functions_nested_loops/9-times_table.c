@@ -27,6 +27,7 @@ _putchar(' ');
 _putchar(m + '0');
 }
 else
+{
 _putchar(',');
 _putchar(' ');
 _putchar(l + '0');
@@ -35,5 +36,5 @@ _putchar(m + '0');
 }
 _putchar('\n');
 }
-
+}
 }
