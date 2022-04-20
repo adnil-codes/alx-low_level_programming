@@ -11,11 +11,11 @@ void _putschar(char *str)
 	char *c;
 	int i;
 
-	c * str;
+	c = str;
 
 	for (i = 0; c[i]; i++)
 	{
-		_putchar (c[i]);
+		_putschar (c[i]);
 	}
 	_putchar('\n');
 }
