@@ -5,12 +5,13 @@
  * @s: pointer of the integer to be updated
  * Return: Void if succesful
  */
+
 int _strlen(char *s)
 {
 	int i;
 
 	i = 0;
-	(while s[u] != '\0')
+	while (s[u] != '\0')
 	{
 		u++;
 	}
