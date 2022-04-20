@@ -32,7 +32,7 @@ int _atoi(char *s)
 			if (s[i + 1] == ' ')
 				break;
 		}
-			else if (s[i] ==  '_')
+			else if (s[i] ==  '-')
 			{
 				sign *= -1;
 			}
