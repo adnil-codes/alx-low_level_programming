@@ -6,7 +6,7 @@
  * Return: void when answer id correct
  */
 
-void _putschar(char *str)
+void _puts(char *str)
 {
 	char *c;
 	int i;
@@ -15,7 +15,7 @@ void _putschar(char *str)
 
 	for (i = 0; c[i]; i++)
 	{
-		_putschar (c[i]);
+		_putchar (c[i]);
 	}
 	_putchar('\n');
 }
