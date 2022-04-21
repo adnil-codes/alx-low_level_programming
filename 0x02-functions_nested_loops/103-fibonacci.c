@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- *
  * main - print fibonacci numbers
  * Return: 0 when sucesful
  */
-int maim(void)
+int main(void)
 {
 	int i;
 	unsigned long int j, k, l, m;
