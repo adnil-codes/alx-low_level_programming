@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  print_times_table - print multiplication table
+ *  times_table - print multiplication table
  *  @n: parameter
  */
 void print_times_table(int n)
@@ -17,7 +17,7 @@ void print_times_table(int n)
 				k = i * j;
 
 				if (j == 0)
-					_putchar('0);
+					_putchar('0');
 				else if (k < 10)
 				{
 					_putchar(',');
