@@ -4,6 +4,7 @@
  * _strncpy - function copies a string
  * @dest: pointer to char to be chnaged
  * @src: pointer to char to be changed
+ * @n: parameter
  * Return: 0 if sucessful
  */
 char *_strncpy(char *dest, char *src, int n)
