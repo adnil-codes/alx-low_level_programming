@@ -8,6 +8,7 @@
  * Return: 0 if sucessful
  */
 char *_strncpy(char *dest, char *src, int n)
+
 {
 	int i;
 
@@ -25,4 +26,5 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 
 	return (dest);
+
 }
