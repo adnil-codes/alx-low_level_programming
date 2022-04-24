@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 			end_i++;
 		}
 
-	for(j = 0; j < n /2; j++)
+	for (j = 0; j < n / 2; j++)
 	{
 		i = *end_i;
 		*end_i = *start_i;
