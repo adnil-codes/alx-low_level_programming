@@ -4,7 +4,7 @@
  * _strspn - Gets the length of a prefix substring
  * @s: string with substring to be accessed
  * @accept: substr of accepter char
- * Returm: length of occurence
+ * Return: length of occurence
  */
 unsigned int _strspn(char *s, char *accept)
 {
