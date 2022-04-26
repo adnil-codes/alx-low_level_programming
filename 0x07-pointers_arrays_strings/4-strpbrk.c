@@ -2,16 +2,16 @@
 #include <stdio.h>
 
  /**
-  * _strpbrk - bytes
-  * @s: pointer to char
-  * @accept: pointer to char
-  * Return: NULL
-  */
+ * _strpbrk - sets of  bytes
+ * @s: pointer to char
+ * @accept: pointer to char
+ * Return: NULL
+ */
 
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
-		
+
 	while (*s)
 	{
 		for (i = 0; accept[i]; i++)
