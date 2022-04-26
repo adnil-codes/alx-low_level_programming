@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
- /**
+/**
+ * _strpbrk - searches a string for any of a set of bytes
  * _strpbrk - sets of  bytes
  * @s: pointer to char
  * @accept: pointer to char
