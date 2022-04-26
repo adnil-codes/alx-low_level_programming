@@ -6,7 +6,7 @@
  * @accept: substr of accepter char
  * Returm: length of occurence
  */
-unsigned int_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int c = 0;
 	char *t = accept;
@@ -21,6 +21,7 @@ unsigned int_strspn(char *s, char *accept)
 			}
 		if (!(*--accept))
 			break;
+		accept = t;
 	}
 	return (c);
 }
