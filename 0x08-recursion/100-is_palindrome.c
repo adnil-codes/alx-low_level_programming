@@ -20,7 +20,7 @@ int _strlen_recursion(char *s)
  * @l: int parameter
  * Return: Recursion
  */
-int palindrome(char *s, int l)
+int p1(char *s, int l)
 {
 	if (l < 1)
 	{
