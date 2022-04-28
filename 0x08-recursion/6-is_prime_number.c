@@ -1,34 +1,40 @@
 #include "main.h"
 
 /**
- * is_prime_number - returns 1 if integer is prime number
+ * divider - show which number is prime
  * @n: int parameter
- * Return: int
+ * @m: int parameter
+ * Return: boolean
  */
-int is_prime_number(int n)
+int divider(int n, int m)
 {
-	if (n <= 1)
+	if (m % n == 0)
 	{
 		return (0);
 	}
-	return (is_prime(n, 2));
+	else if (m / 2 > n)
+	{
+		return (divider(n + 2, m));
+	}
+	else
+	{
+		return (1);
+	}
 }
 
 /**
- * is_prime - entry number
+ * is_prime_number - entry number
  * @n: int parameter
- * @x: int parameter
  * Return: function of prime numbers
  */
-int is_prime(int n, int x)
+int is_prime_number(int n)
 {
-	if (x < n)
+	if ((!(n % 2) && n != 2) || n < 2)
 	{
-		if (n % x == 0)
-		{
-			return (0);
-		}
-		return (is_prime(n, x + 1));
+		return (0);
 	}
-	return (1);
+	else
+	{
+		return (divider(3, n));
+	}
 }
