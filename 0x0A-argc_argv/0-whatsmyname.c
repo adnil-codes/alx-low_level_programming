@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - the int main
+ * main - function prints name ffg by new line
  * @argc: int parameter
  * @argv: char parameter
- * return: print the name
+ * Return: print the name
  */
 int main(int argc, char *argv[])
 {
