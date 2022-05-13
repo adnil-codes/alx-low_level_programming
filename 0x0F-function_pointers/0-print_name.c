@@ -7,10 +7,10 @@
  * @f: pointer to printing func
  * Return: 0
  */
-void print_name(char *name, void (*f) (char *))
+
+void print_name(char *name, void (*f)(char *))
 {
-	if (!name || !f)
-		return (0);
-	f(name);
+	if (name != NULL && f != NULL)
+		f(name);
 }
 
