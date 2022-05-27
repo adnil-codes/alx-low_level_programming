@@ -30,7 +30,7 @@ void free_listp2(listp_t **head)
  *
  * Return: size of the list that was freed.
  */
- size_t free_listint_safe(listint_t **h)
+size_t free_listint_safe(listint_t **h)
 {
 	size_t nnodes = 0;
 	listp_t *hptr, *new, *add;
