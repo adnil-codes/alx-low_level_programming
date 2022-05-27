@@ -20,7 +20,7 @@ void free_listp(listp_t **head)
 			free(temp);
 
 		}
-	
+
 		*head = NULL;
 
 	}
@@ -50,7 +50,7 @@ size_t print_listint_safe(const listint_t *head)
 		hptr = new;
 
 		add = hptr;
-		
+
 		while (add->next != NULL)
 		{
 			add = add->next;
