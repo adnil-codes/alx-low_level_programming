@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * binary_to_uint - function to convert a binary numbet to an unsigned int
