@@ -7,17 +7,29 @@ include "main.h"
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int d_val = 0;
-	int i = 0;
+	unsigned int u;
+	int len, base_two;
 
-	if (b == NULL)
+	if (!b)
 		return (0);
 
-	while (b[i] == '0' || b[i] == '1')
+	u = 0;
+
+	for (len = 0; b[len] != '\0'; len++)
+		;
+
+	for (len--, base_two = 1; len >= 0; len--; base_two *= 2)
 	{
-		d_val <<= 1;
-		d_val += b[i] - '0';
-		i++;
+		if (b[len] != '0' && b[len] != '1')
+		{
+			return (0);
+		}
+
+		if (b[len] & 1)
+		{
+			u += base_two;
+		}
 	}
-	return (d_val);
+
+	return (u);
 }
