@@ -122,9 +122,9 @@ void print_version(unsigned char *e_ident)
 
 	switch (e_ident[EI_VERSION])
 	{
-		case EV_CURRENT:
-			printf(" (current)\n");
-			break;
+	case EV_CURRENT:
+		printf(" (current)\n");
+		break;
 	default:
 		printf("\n");
 		break;
@@ -171,7 +171,7 @@ void print_osabi(unsigned char *e_ident)
 	case ELFOSABI_STANDALONE:
 		printf("Standalone App\n");
 		break;
-		default:
+	default:
 		printf("<unknown: %x>\n", e_ident[EI_OSABI]);
 	}
 }
